@@ -1,4 +1,4 @@
  cd /root/API 
  git pull      
- npm ci      
- pm2 restart all 
+ docker-compose up --build --force-recreate --no-deps -d api
+
